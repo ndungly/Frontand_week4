@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+
+article {
+    width: 600px;
+    margin: 40px auto 100px auto;
+}
+
+h1 {
+    font-family: Lobster;
+    font-size: 65px;
+    color: #133B70;
+}
+
+.article-date {
+    font-weight: Lora;
+    font-size: 22px;
+    font-weight: 700;
+    float: left;
+    margin: 10px 40px 10px 0;
+    position: relative;
+    bottom: 8px;
+}
+
+p {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #061324;
+}
+
+.image-left {
+    float: left;
+    margin: 20px -100px 0 0;
+    position: relative;
+    left: -150px;
+    bottom: 15px;
+}
+
+.quote {
+    width: 400px;
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.quote-right {
+    padding-left: 40px;
+    border-left: solid 8px #133B70;
+    float: right;
+    position: relative;
+    right: -190px;
+    bottom: 20px;
+    margin: 10px 0 0 -180px;
+}
+
+.quote-right:before {
+    content: "“";
+    position: absolute;
+    top: 95px;
+    left: 0;
+    font-family: Lora;
+    font-weight: 700px;
+    font-size: 350px;
+    color: #cfcfcf;
+    z-index: -1;
+}
+
+.quote-left {
+    padding-right: 40px;
+    text-align: right;
+    border-right: solid 8px #133B70;
+    float: left;
+    position: relative;
+    left: -200px;
+    margin: 10px -150px 0 0;
+}
+
+.quote-left:before {
+    content: "“";
+    text-align: right;
+    position: absolute;
+    top: 105px;
+    right: 0;
+    font-family: Lora;
+    font-weight: 700px;
+    font-size: 350px;
+    color: #cfcfcf;
+    z-index: -1;
+}
+
+.image-caption {
+    font-family: Lora;
+    font-size: 18px;
+    color: white;
+    background-color: #133B70;
+    padding: 10px 0 10px 15px;
+}
