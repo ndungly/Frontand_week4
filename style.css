@@ -79,7 +79,6 @@ p {
 }
 
 .quote-left:before {
-    text-align: right;
     top: 105px;
     right: 0;
 }
